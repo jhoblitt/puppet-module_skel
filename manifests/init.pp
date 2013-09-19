@@ -2,15 +2,10 @@
 #
 # simple template
 #
-# === Authors
+# === Examples
 #
-# Joshua Hoblitt <jhoblitt@cpan.org>
+# include module_skel
 #
-# === Copyright
-#
-# Copyright (C) 2013 Joshua Hoblitt
-#
-
 class module_skel {
 
 }
