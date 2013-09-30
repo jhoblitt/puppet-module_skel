@@ -6,9 +6,18 @@ else
   gem 'puppet', :require => false
 end
 
-gem 'rake'
-gem 'puppetlabs_spec_helper'
-gem 'puppet-lint'
-gem 'puppet-syntax'
+group :development, :test do
+  gem 'rake'
+  gem 'puppetlabs_spec_helper'
+  gem 'puppet-lint'
+  gem 'puppet-syntax'
+end
+
+group :system do
+  gem 'rspec-system'
+  gem 'rspec-system-puppet'
+  gem 'rspec-system-serverspec'
+  gem 'serverspec'
+end
 
 # vim:ft=ruby
