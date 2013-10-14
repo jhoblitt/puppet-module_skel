@@ -10,7 +10,8 @@ Puppet module_skel Module
 3. [Usage](#usage)
 4. [Limitations](#limitations)
     * [Tested Platforms](#tested-platforms)
-5. [Support](#support)
+5. [Versioning](#versioning)
+6. [Support](#support)
 
 
 Overview
@@ -29,6 +30,13 @@ Limitations
 -----------
 
 ### Tested Platforms
+
+
+Versioning
+----------
+
+This module is versioned according to the [Semantic Versioning
+2.0.0](http://semver.org/spec/v2.0.0.html) specification.
 
 
 Support
