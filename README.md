@@ -12,6 +12,7 @@ Puppet module_skel Module
     * [Tested Platforms](#tested-platforms)
 5. [Versioning](#versioning)
 6. [Support](#support)
+7. [See Also](#see-also)
 
 
 Overview
@@ -44,4 +45,8 @@ Support
 
 Please log tickets and issues at
 [github](https://github.com/jhoblitt/puppet-module_skel/issues)
+
+
+See Also
+--------
 
