@@ -14,5 +14,3 @@ gem 'rspec-system',                   :require => false
 gem 'rspec-system-puppet',            :require => false
 gem 'rspec-system-serverspec', '>=2', :require => false
 gem 'serverspec',                     :require => false
-
-# vim:ft=ruby
