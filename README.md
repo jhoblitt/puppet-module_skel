@@ -12,7 +12,8 @@ Puppet module_skel Module
     * [Tested Platforms](#tested-platforms)
 5. [Versioning](#versioning)
 6. [Support](#support)
-7. [See Also](#see-also)
+7. [Contributing](#contributing)
+8. [See Also](#see-also)
 
 
 Overview
@@ -45,6 +46,26 @@ Support
 
 Please log tickets and issues at
 [github](https://github.com/jhoblitt/puppet-module_skel/issues)
+
+
+Contributing
+------------
+
+1. Fork it on github
+2. Make a local clone of your fork
+3. Create a topic branch.  Eg, `feature/mousetrap`
+4. Make/commit changes
+    * Commit messages should be in [imperative tense](http://git-scm.com/book/ch5-2.html)
+    * No linter warnings or errors are introduced - `bundle exec rake lint`
+    * `Rspec-puppet` unit tests are not broken and coverage is added for new
+       code - `bundle exec rake spec`
+    * Documentation of API/features is updated as appropriate in the README
+    * If present, `beaker` acceptance tests should be run / updated - `bundle
+      exec rake beaker`
+5. When the feature is complete, rebase / squash history as necessary to remove
+   "fix typo", "oops", "whitespace" and other trivial commits
+6. Push the topic branch to github
+7. Open a Pull Request (PR) from the *topic branch* onto parent repo's `master` branch
 
 
 See Also
