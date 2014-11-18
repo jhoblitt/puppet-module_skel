@@ -10,3 +10,7 @@ gem 'rake',                   :require => false
 gem 'puppetlabs_spec_helper', :require => false
 gem 'puppet-lint',            :require => false
 gem 'puppet-syntax',          :require => false
+gem 'rspec-puppet',
+  :git => 'https://github.com/rodjek/rspec-puppet.git',
+  :ref => '6ac97993fa972a15851a73d55fe3d1c0a85172b5',
+  :require => false
