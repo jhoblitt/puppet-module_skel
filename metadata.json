@@ -4,7 +4,7 @@
   "author": "Joshua Hoblitt <jhoblitt@cpan.org>",
   "summary": "module skeleton",
   "license": "Apache-2.0",
-  "source": "https://github.com/jhoblitt/puppet-module_skel",
+  "source": "https://github.com/jhoblitt/puppet-module_skel.git",
   "project_page": "https://github.com/jhoblitt/puppet-module_skel",
   "issues_url": "https://github.com/jhoblitt/puppet-module_skel/issues",
   "operatingsystem_support": [
