@@ -24,12 +24,13 @@ group :development, :test do
 end
 
 group :beaker do
-  gem 'serverspec',               :require => false
-  gem 'beaker',                   :require => false
-  gem 'beaker-rspec',             :require => false
-  gem 'pry',                      :require => false
-  gem 'travis-lint',              :require => false
-  gem 'puppet-blacksmith',        :require => false
+  gem 'serverspec',                   :require => false
+  gem 'beaker',                       :require => false
+  gem 'beaker-rspec',                 :require => false
+  gem 'beaker-puppet_install_helper', :require => false
+  gem 'pry',                          :require => false
+  gem 'travis-lint',                  :require => false
+  gem 'puppet-blacksmith',            :require => false
 end
 
 # vim:ft=ruby

@@ -23,3 +23,15 @@ task :default => [
   :lint,
   :spec,
 ]
+
+task :acceptance do
+  nodesets = Dir['spec/acceptance/nodesets/*.yml'].sort!.collect { |node|
+    node.sub!('.yml', '')
+    File.basename node
+  }
+
+  nodesets.each { |node|
+    ENV['BEAKER_set'] =  node
+    Rake::Task[:beaker].execute
+  }
+end
